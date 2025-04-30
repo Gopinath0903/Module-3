@@ -21,6 +21,7 @@ To write a Write a Python program that matches a string that has an 'a' followed
    - Print `"Not matched!"`
 
 ### PROGRAM
+---
 Reg no-212223070007
 Name-Gopinath G
 
@@ -30,7 +31,7 @@ if(re.search(pat,input())):
     print("Found a match!")
 else:
     print("Not matched!")
-
+---
 ### OUTPUT
 
 ![Screenshot 2025-04-30 224746](https://github.com/user-attachments/assets/0b23565e-2668-4331-a8f3-8cc0be338e68)

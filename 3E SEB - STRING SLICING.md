@@ -1,30 +1,42 @@
 # Exp.No:3e
-## SEB - STRING SLICING
+## SEB - FIND SEQUENCES
 
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
+To write a Python program to find sequences of lowercase letters joined with a underscore.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
 
----
+1. Read a string from the user.
+2. Define a pattern that:
+   - Starts with one or more lowercase letters
+   - Followed by an underscore (`_`)
+3. Use the pattern to search the string.
+4. If the pattern is found at the beginning:
+   - Print `"Found a match!"`
+5. Else:
+   - Print `"Not matched!"`
+
 
 ### PROGRAM
+Reg no-212223070007
+Name-Gopinath G
 
-```
-```
+import re
+s=input()
+x=re.search(r'^[a-z]+_',s)
+if x:
+    print("Found a match!")
+else:
+    print("Not matched!")
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/1bdc9b30-08d5-4b0f-9d40-b5ad6b297a47)
+
 
 ### RESULT
+Thus the Python program to find sequences of lowercase letters joined with a underscore was executed successfully

@@ -23,7 +23,7 @@ To write a python function that  a string, convert it into a tuple and remove th
 ### PROGRAM
 Reg no-212223070007
 Name-Gopinath G
-
+~~~
 def strtotuple(a):
     t=tuple(a)
     print(t)
@@ -32,7 +32,7 @@ def strtotuple(a):
     t1=tuple(l)
     print(t1)
     print("Character Removed:",r)
-
+~~~
 ### OUTPUT
 
 ![image](https://github.com/user-attachments/assets/3715aedf-2847-4535-9add-5f92d2ca89bf)

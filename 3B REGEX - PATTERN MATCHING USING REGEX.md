@@ -21,11 +21,10 @@ To write a Write a Python program that matches a string that has an 'a' followed
    - Print `"Not matched!"`
 
 ### PROGRAM
----
 
 Reg no-212223070007
 Name-Gopinath G
-
+~~~
 import re
 pat=r'a.*b$'
 if(re.search(pat,input())):
@@ -33,7 +32,7 @@ if(re.search(pat,input())):
 else:
     print("Not matched!")
     
----
+~~~
 
 ### OUTPUT
 

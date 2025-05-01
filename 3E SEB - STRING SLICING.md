@@ -25,7 +25,7 @@ To write a Python program to find sequences of lowercase letters joined with a u
 ### PROGRAM
 Reg no-212223070007
 Name-Gopinath G
-
+~~~
 import re
 s=input()
 x=re.search(r'^[a-z]+_',s)
@@ -33,7 +33,7 @@ if x:
     print("Found a match!")
 else:
     print("Not matched!")
-
+~~~
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/1bdc9b30-08d5-4b0f-9d40-b5ad6b297a47)
 

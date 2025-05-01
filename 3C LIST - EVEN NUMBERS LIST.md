@@ -26,7 +26,7 @@ To write a python program to swap the value in the list with the next value if n
 ### PROGRAM
 Reg no-212223070007
 Name-Gopinath G
-
+~~~
 num = eval(input())
 l=len(num)
 i=0
@@ -37,7 +37,7 @@ while i<l:
     else:
         i+=1
 print(num)
-
+~~~
 ### OUTPUT
 ![Screenshot 2025-04-30 225457](https://github.com/user-attachments/assets/6c1e83d0-5db1-4ea3-b094-36a28fa4ea63)
 
